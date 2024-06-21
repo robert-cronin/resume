@@ -1,0 +1,91 @@
+% Copyright 2024 Robert Cronin
+% 
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+% 
+%     https://www.apache.org/licenses/LICENSE-2.0
+% 
+% Unless required by applicable law or agreed to in writing, software
+% distributed under the License is distributed on an "AS IS" BASIS,
+% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+% See the License for the specific language governing permissions and
+% limitations under the License.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[scale=0.85]{geometry}
+\setlength{\hintscolumnwidth}{4cm}
+
+\name{Robert}{Cronin}
+\title{Senior Software Engineer}
+\address{}{}
+\phone[mobile]{0424416479} 
+\email{robert@robertcronin.com}
+\homepage{robertcronin.com}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Technical Strengths}
+\cvitem{Frontend}{MUI, React, Redux, Vite.js, Styled Components}
+\cvitem{Backend}{Express.js, Gin, FastAPI, PostgreSQL}
+\cvitem{Languages}{TypeScript, Golang, Python, SQL, Bash}
+\cvitem{Cloud}{Kubernetes, AWS, Linux, Terraform, Github/Jenkins CI/CD}
+\cvitem{Other}{Docker, REST, gRPC, OpenAI API, LangChain, Jest/Cypress/Locust}
+
+\section{Professional Experience}
+\cventry{Nov 2022--Present}{Senior Software Engineer}{LeapForward}{}{}
+{
+    \begin{itemize}
+        \item Converted monolithic architecture to Golang microservices, reducing cluster costs by 80\%
+        \item Led development of scalable chat infrastructure for Lucy RAG GenAI Chatbot
+        \item Mentored junior developers and drove GenAI integration to assist human coaches
+    \end{itemize}
+}
+
+\cventry{Apr 2021--Oct 2022}{Senior Software Engineer}{TikTok (ByteDance)}{}{}
+{
+    \begin{itemize}
+        \item Refactored Retrace platform, impacting 600M+ users across 40+ projects (\$58B annually)
+        \item Led cross-functional team to deliver complete platform refactor in 5 months
+        \item Promoted for significant impact on business efficiency
+    \end{itemize}
+}
+
+\cventry{Apr 2020--Mar 2021}{Software Engineer}{MatrixAI}{}{}
+{
+    \begin{itemize}
+        \item Developed distributed DevOps platform (MatrixOS) for 1000+ node scalability
+        \item Built CI/CD pipelines for 50+ repositories
+        \item Completed js-polykey library within 6-month deadline, earning performance bonus
+    \end{itemize}
+}
+
+\cventry{Jul 2017--Apr 2020}{Software Developer}{Fleet Aeronautics}{}{}
+{
+    \begin{itemize}
+        \item Consolidated 20+ individual apps into single web-based client portal
+        \item Increased code maintenance efficiency by 90\%
+    \end{itemize}
+}
+
+\section{Key Projects}
+\cvitem{Conduit (LeapForward)}{Scalable chat infrastructure handling 1000+ concurrent users, 10k+ messages/second/node}
+\cvitem{ComposeIDE (TikTok)}{In-browser IDE with real-time collaboration, impacting two major content safety platforms}
+\cvitem{Hawk (TikTok)}{Content review platform serving millions of daily internal users, used across thousands of business lines in all ByteDance commercial apps}
+\cvitem{Turl-Go (TikTok)}{Thrift-cURL CLI tool used by thousands of backend developers across 40+ projects}
+
+\section{Education}
+\cventry{2024}{M.S. Computer Science (Machine Learning)}{Georgia Institute of Technology}{}{}{}
+\cventry{2018}{Graduate Certificate in Computing}{University of Southern Queensland}{}{}{}
+\cventry{2014}{B.E. Mechanical and Aerospace Engineering}{University of Queensland}{}{}{}
+
+\section{Career Objective}
+\cvitem{}{Seeking challenging technical problems in Machine Learning, Distributed Systems, and Cloud Computing with a team of talented engineers.}
+
+\end{document}
